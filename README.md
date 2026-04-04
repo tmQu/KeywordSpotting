@@ -1,6 +1,6 @@
 # Keyword Spotting Project
 
-This project is a **Keyword Spotting** system based on [Google's Keyword Spotting Streaming](https://github.com/google-research/google-research/blob/master/kws_streaming/README.md), [(paper)](https://arxiv.org/abs/2005.06720). The goal of the project is to recognize predefined keywords in real-time using audio streaming. The system is optimized for deployment on edge devices such as microcontrollers (ESP32).
+This project is a **Keyword Spotting** system based on [Google's Keyword Spotting Streaming](https://github.com/google-research/google-research/blob/master/kws_streaming/README.md), [(paper)](https://arxiv.org/abs/2005.06720). The goal of the project is to recognize predefined keywords in real-time using audio streaming. The system is optimized for deployment on edge devices such as microcontrollers (ESP32). The ESP32 deployment pipeline is built upon the TensorFlow Lite Micro "micro_speech" example and the esp32_kws project (https://github.com/42io/esp32_kws), and has been extended to support real-time streaming inference, efficient memory management, and robust operation under embedded constraints.
 
 ## Features
 
@@ -48,4 +48,4 @@ To run or deploy the project, you will need:
 ## References
 
 - [Google's Keyword Spotting Streaming](https://github.com/google-research/google-research/blob/master/kws_streaming/README.md)
-
+- [esp32_kws project](https://github.com/42io/esp32_kws)

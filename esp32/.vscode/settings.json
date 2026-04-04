@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "fe.h": "c",
+        "c_speech_features_fast.h": "c",
+        "c_speech_features.h": "c",
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "xhash": "cpp",
+        "xmemory": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "atomic": "cpp"
+    }
+}
